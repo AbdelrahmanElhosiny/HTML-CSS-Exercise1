@@ -1,0 +1,133 @@
+.a {
+  display: flex;
+  height: 50px;
+}
+.element1 {
+  display: flex;
+  width: 100px;
+  background-color: lightpink;
+  align-items: center;
+  justify-content: center;
+}
+.item1 {
+  background-color: black;
+  color: white;
+}
+.element2 {
+  width: 200px;
+  background-color: lightblue;
+}
+/* ================================== */
+.b {
+  display: flex;
+  height: 50px;
+}
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+/* ================================== */
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gmail {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  padding: 10px 15px 15px 15px;
+}
+.main-title {
+  color: gray;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+.block {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+.pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin: 0 10px 0 0;
+}
+.text-info {
+  flex: 1;
+}
+.name-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 5px 0;
+}
+.name {
+  font-weight: bold;
+}
+.date {
+  font-size: 12px;
+  color: gray;
+}
+.block-title {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+}
+.email-content {
+  font-size: 14px;
+  color: gray;
+}
+/* ================================== */
+.tweet {
+  display: flex;
+  padding: 10px 15px 15px 15px;
+}
+.pic2 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin: 0 10px 0 0;
+}
+.tweet-block {
+  flex: 1;
+}
+.tweeter {
+  display: flex;
+  margin: 0 0 5px 0;
+}
+.tweeter-name {
+  font-weight: bold;
+  margin: 0 5px 0 0;
+}
+.tweeter-handel {
+  color: gray;
+}
+.tweet-content {
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+.link {
+  display: flex;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 15px;
+  align-items: center;
+  overflow: hidden;
+}
+.link-pic {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(200, 200, 200);
+  margin: 0 10px 0 0;
+}
+.link-content {
+  flex: 1;
+}
+.link-title {
+  color: gray;
+  margin: 0 0 5px 0;
+}
+.link-text {
+  line-height: 22px;
+}

@@ -1,0 +1,99 @@
+body {
+  height: 3000px;
+}
+/* ================================================== */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  padding: 10px 30px;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+/* ================================================== */
+.left {
+  display: flex;
+  align-items: center;
+}
+.pic1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin: 0 10px 0 0;
+}
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/* ================================================== */
+.add-friend {
+  background-color: rgb(24, 119, 242);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 6px 8px;
+  margin: 0 5px 0 0;
+  font-weight: bold;
+}
+.message {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-weight: bold;
+}
+
+/* ************************************************************ */
+
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+}
+/* ================================================== */
+.images {
+  display: flex;
+  background-color: rgb(33, 33, 33);
+  display: block;
+  padding: 15px 10px;
+}
+.pic2 {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin: 0 0 10px 0;
+  display: block;
+}
+/* ================================================== */
+.info {
+  display: flex;
+  background-color: rgb(55, 55, 55);
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  margin: 0 0 15px 0;
+}
+.title {
+  font-weight: bold;
+}
+.plus {
+  font-size: 30px;
+  color: rgb(150, 150, 150);
+}
+.channels {
+  color: rgb(150, 150, 150);
+  margin: 0 0 15px 0;
+}

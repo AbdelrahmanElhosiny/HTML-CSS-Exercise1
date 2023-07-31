@@ -1,0 +1,161 @@
+.a {
+  display: flex;
+  margin: 0 0 20px 0;
+}
+.a1 {
+  background-color: aqua;
+  width: 200px;
+}
+.a2 {
+  background-color: pink;
+  width: 75px;
+}
+/* ============================ */
+.b {
+  display: flex;
+  margin: 0 0 20px 0;
+}
+.b1 {
+  background-color: aqua;
+  width: 50px;
+}
+.b2 {
+  background-color: pink;
+  flex: 1;
+}
+.b3 {
+  background-color: aqua;
+  width: 75px;
+}
+/* ============================ */
+.c {
+  display: flex;
+  margin: 0 0 20px 0;
+  justify-content: space-between;
+}
+.c1,
+.c2,
+.c3,
+.c4 {
+  background-color: pink;
+}
+
+/* ============================ */
+.d {
+  display: flex;
+  margin: 0 0 20px 0;
+  justify-content: space-between;
+  height: 50px;
+  border-style: solid;
+  border-color: gray;
+  align-items: center;
+}
+.d1,
+.d2 {
+  background-color: pink;
+}
+/* ============================ */
+.e {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(170, 170, 170);
+  border-width: 1px;
+}
+.e1,
+.e2,
+.e3 {
+  display: flex;
+  justify-content: space-between;
+}
+.e1,
+.e2 {
+  margin: 0 0 10px 0;
+}
+.text {
+  font-family: Arial;
+  font-weight: 500;
+}
+.num {
+  background-color: rgb(49, 109, 245);
+  border-radius: 10px;
+  padding: 1px 10px;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+}
+/* ============================ */
+.f {
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  background-color: rgb(120, 82, 178);
+  align-items: center;
+  padding: 0 15px;
+}
+.home {
+  font-family: Arial;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0 15px 0 0;
+}
+.search-box {
+  border-radius: 15px;
+  border: none;
+  padding: 6px 15px;
+  flex: 1;
+  max-width: 600px;
+  min-width: 50px;
+}
+.down-btn {
+  background-color: rgb(120, 82, 178);
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 0 0 0 15px;
+}
+/* ============================ */
+p {
+  margin: 0;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 0 0 20px 0;
+}
+.pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin: 0 10px 0 0;
+}
+.name {
+  width: 200px;
+}
+.name2 {
+  color: gray;
+  font-weight: 500;
+}
+.name3 {
+  color: gray;
+  font-weight: 500;
+  font-size: 12px;
+}
+.follow {
+  color: white;
+  background-color: rgb(29, 155, 240);
+  border: none;
+  border-radius: 4px;
+  padding: 7px 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,47 @@
+.add-frined {
+  display: inline-block;
+  width: 150px;
+  margin: 0 10px 0 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.46);
+}
+.kitten {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.info {
+  padding: 5px 5px;
+}
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 2px 0 5px 0;
+}
+.mutual-pic {
+  vertical-align: middle;
+  display: inline-block;
+  width: 30px;
+}
+.mini-pic {
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.mutual-text {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 0 0 10px 0;
+  color: gray;
+  width: 100px;
+}
+.add-btn {
+  background-color: rgb(1, 93, 205);
+  color: white;
+  font-size: 12px;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 14px;
+}

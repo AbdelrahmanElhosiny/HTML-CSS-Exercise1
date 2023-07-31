@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1-4</title>
+    <style>
+      .link {
+        color: rgb(0, 113, 133);
+      }
+      .link:hover {
+        color: rgb(255, 164, 28);
+      }
+
+      .price {
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+      }
+
+      .add-button {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        width: 120px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        margin-right: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.15s;
+      }
+      .add-button:hover {
+        background-color: rgb(247, 202, 0);
+      }
+      .add-button:active {
+        opacity: 0.5;
+      }
+
+      .buy-button {
+        background-color: rgb(255, 164, 28);
+        color: black;
+        width: 120px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.15s;
+      }
+      .buy-button:hover {
+        background-color: rgb(250, 137, 0);
+      }
+      .buy-button:active {
+        opacity: 0.5;
+      }
+
+      .pages {
+        padding: 10px 5px;
+        margin: 0px 5px 0px 5px;
+      }
+      .pagesnum {
+        margin: 0px 3px 0px 3px;
+      }
+
+      .stretch {
+        border: none;
+        color: white;
+        background-color: green;
+        padding: 10px 20px 10px 20px;
+        transition: padding 0.2s;
+      }
+      .stretch:hover {
+        padding: 20px 30px 20px 30px;
+      }
+
+      .shadowclick {
+        border: none;
+        color: white;
+        background-color: green;
+        padding: 10px 20px 10px 20px;
+        box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.5);
+      }
+      .shadowclick:active {
+        box-shadow: 0px 0px 0px;
+        margin: 3px 0px 0px 5px;
+      }
+
+      .nums {
+        border: none;
+        color: white;
+        background-color: green;
+        padding: 10px 20px 10px 20px;
+        margin: 0px 8px 0px 8px;
+        transition: margin 0.2s, padding 0.2s;
+      }
+      .nums:hover {
+        padding: 10px 24px 10px 24px;
+        margin: 0px 4px 0px 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="link" href="https://www.amazon.eg/" target="_blank"
+      >Back to Amazon</a
+    >
+    <h1>Nike Black Running Shoes</h1>
+    <p class="price">$39 - in stock.</p>
+    <p>Free delivery tomorrow</p>
+    <button class="add-button">Add to Cart</button>
+    <button class="buy-button">Buy Now</button>
+
+    <hr />
+
+    <button class="pages">Back</button>
+    <a class="pagesnum" href="">1</a>
+    <a class="pagesnum" href="">3</a>
+    <a class="pagesnum" href="">2</a>
+    <a class="pagesnum" href="">4</a>
+    <a class="pagesnum" href="">5</a>
+    <button class="pages">Next</button>
+
+    <hr />
+
+    <button class="stretch">Stretch</button>
+
+    <hr />
+
+    <button class="shadowclick">3D Shadow Click</button>
+
+    <hr />
+
+    <button class="nums">One</button>
+    <button class="nums">Two</button>
+    <button class="nums">Three</button>
+  </body>
+</html>

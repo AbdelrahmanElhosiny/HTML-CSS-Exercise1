@@ -1,0 +1,63 @@
+body {
+  height: 3000px;
+}
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: gray;
+  color: white;
+  z-index: 99;
+}
+.b {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  color: white;
+  width: 100px;
+  z-index: 98;
+}
+.c {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: pink;
+  color: white;
+}
+/* =================================== */
+.d {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background-color: white;
+  padding: 15px;
+  width: 250px;
+  border-radius: 5px;
+}
+.modal-title {
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+.modal-content {
+  font-size: 12px;
+  margin: 0 0 10px 0;
+}
+.close-btn {
+  font-size: 10px;
+}
